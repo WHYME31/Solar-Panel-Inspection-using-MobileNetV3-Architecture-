@@ -3,7 +3,11 @@
 
 This is a project designed to receive the MP4 file of the output from a drone designed for solar panel inspection and gives output as a AVI file with the prediction of the physical status of the recorded solar panel.
 
-## Working of the Code
+## Table of Contents
+  * [working of the code](#1) 
+
+##  Working of the Code
+
 
 ### About the dataset
 
@@ -11,16 +15,16 @@ This is a project designed to receive the MP4 file of the output from a drone de
 
 * The Dataset has been divided into SIX classes namely,
 
-..* 1. Clear Solar Panel
-..* 2. Dust covered Solar Panel
-..* 3. Snow Covered Solar Panel
-..* 4. Solar Panel covered in Bird Dropping
-..* 5. Solar Panel with physical Damages
-..* 6. Solar Panel with Electrical Damages
+..1. Clear Solar Panel
+..2. Dust covered Solar Panel
+..3. Snow Covered Solar Panel
+..4. Solar Panel covered in Bird Dropping
+..5. Solar Panel with physical Damages
+..6. Solar Panel with Electrical Damages
 
 *These are detectable given the condition that the reason for the decerase in efficiency in solar panel is detectable using a RGB camera*
 
-### About the Model
+### <a name="1"></a> About the Model
 
 * The project uses the technique called [Transfer Learning](https://www.geeksforgeeks.org/ml-introduction-to-transfer-learning/ "GeeksForGeeks") as the training dataset for solar panel is relatively small and as the model is designed to work with faster training time. 
 
