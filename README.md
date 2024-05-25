@@ -1,6 +1,6 @@
 # Solar-Panel-Inspection-using-MobileNetV3-Architecture-
 
-This project is intended to detect physical performance diminisher of a solar panel where the input is an MP4 format of recorded footage of solar panels to inspect from a drone and the output returns a AVI file of same video length with frames of the video labelled according to the status of the solar panel
+This project is intended to detect physical performance diminishers of a solar panel, where the input is an MP4 format of recorded footage of solar panels to inspect from a drone and the output returns a AVI file of same duration. Each frames of the output video is labelled based on the condition of the solar panel
 
 ## Table of Contents
   * [working of the code](#1)
@@ -9,7 +9,7 @@ This project is intended to detect physical performance diminisher of a solar pa
     - [The Input and the Output](#4)
   * [Conclusion and Result](#5)
     
-##  Working of the Code<a name="1"></a>
+## Working of the Code<a name="1"></a>
 
 ### About the dataset<a name="2"></a>
 
@@ -40,7 +40,7 @@ The Dataset has been divided into SIX classes namely,
 * The layers are
   1. Flatten
   1. Dropout
-  1. Dense (using softmax as sctivation function)
+  1. Dense (using softmax as activation function)
   
 * A concept of early Stopping is introduced to prevent overfitting 
 
