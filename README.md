@@ -1,6 +1,6 @@
 # Solar-Panel-Inspection-using-MobileNetV3-Architecture-
 
-This project is intended to detect physical performance diminishers of a solar panel, where the input is an MP4 format of recorded footage of solar panels to inspect from a drone and the output returns a AVI file of same duration. Each frames of the output video is labelled based on the condition of the solar panel
+This project is intended to detect physical performance diminishers of a solar panel where the input is an MP4 format of recorded footage of solar panels to be inspected from a drone, and the output returns an AVI file of the same duration. Each frame of the output video is labeled based on the condition of the solar panel.
 
 ## Table of Contents
   * [working of the code](#1)
@@ -14,7 +14,7 @@ This project is intended to detect physical performance diminishers of a solar p
 ### About the dataset<a name="2"></a>
 
 This model is trained using a labelled dataset of images from KAGGLE.
-Website link: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images
+Link for Dataset: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images
 
 The Dataset has been divided into SIX classes namely,
  
