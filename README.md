@@ -3,7 +3,7 @@
 
 This is a project designed to receive the MP4 file of the output from a drone designed for solar panel inspection and gives output as a AVI file with the prediction of the physical status of the recorded solar panel.
 
-## Working of the model
+## Working of the Code
 
 ### About the dataset
 
@@ -20,7 +20,7 @@ This is a project designed to receive the MP4 file of the output from a drone de
 
 *These are detectable given the condition that the reason for the decerase in efficiency in solar panel is detectable using a RGB camera*
 
-###About the Model
+### About the Model
 
 * The project uses the technique called [Transfer Learning](https://www.geeksforgeeks.org/ml-introduction-to-transfer-learning/ "GeeksForGeeks") as the training dataset for solar panel is relatively small and as the model is designed to work with faster training time. 
 
@@ -52,5 +52,5 @@ This is a project designed to receive the MP4 file of the output from a drone de
 
 # Conclusion and Result
 
-The model performs well with highest recorded accuracy of 97.15% and an average accuracy of 94.31% in predicting the status of the Solar Panel in a frame of the input MP4 video file.
+The model performs well with a highest recorded accuracy of 97.15% and an average accuracy of 94.31% in predicting the status of the Solar Panel in a frame of the input MP4 video file, labeling the frames of the video in the output into the six specified classes.
 
