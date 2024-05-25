@@ -9,12 +9,11 @@ This project is intended to detect physical performance diminisher of a solar pa
     - [The Input and the Output](#4)
   * [Conclusion and Result](#5)
     
-
-##  Working of the Code
 <a name="1"></a>
+##  Working of the Code
 
-### About the dataset
 <a name="2"></a>
+### About the dataset
 This model is trained using a labelled dataset of images from KAGGLE. Website link: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images
 
 The Dataset has been divided into SIX classes namely,
@@ -28,8 +27,8 @@ The Dataset has been divided into SIX classes namely,
 
 *These are detectable given the condition that the reason for the decerase in efficiency in solar panel is detectable using a RGB camera*
 
-### About the Model
 <a name="3"></a>
+### About the Model
 * The project uses the technique called [Transfer Learning](https://www.geeksforgeeks.org/ml-introduction-to-transfer-learning/ "GeeksForGeeks") as the training dataset for solar panel is relatively small and as the model is designed to work with faster training time. 
 
 * This Model leverages on the pre-trained model called [MobileNetV3](https://paperswithcode.com/paper/searching-for-mobilenetv3 "Papers with code") which is a CNN architecture used in devices with low computational resources and power efficiency.
@@ -49,8 +48,8 @@ The Dataset has been divided into SIX classes namely,
 
 * Afer working on the model, The performance of the model is evaluated using a confusion matrix
 
-### The Input and the Output
 <a name="4"></a>
+### The Input and the Output
 
 * Using [Tkinter module](https://youtu.be/YXPyB4XeYLA?si=gj8uqFV9J-iM83O5 "FreeCodeCamp") and [Time module](https://docs.python.org/3/library/time.html "Python Documentation"), input MP4 file is selected from the user's system and output is saved as an AVI file in the directory present in the code under the variable **output_path** in the last cell.
 
@@ -60,8 +59,8 @@ The Dataset has been divided into SIX classes namely,
 
 * Would return a message stating **"No file Selected"** if no file is selected
 
-# Conclusion and Result
 <a name="5"></a>
+# Conclusion and Result
 
 The model performs well with a highest recorded accuracy of 97.15% and an average accuracy of 94.31% in predicting the status of the Solar Panel in a frame of the input MP4 video file, labeling the frames of the video in the output into the six specified classes.
 
