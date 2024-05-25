@@ -13,7 +13,8 @@ This project is intended to detect physical performance diminisher of a solar pa
 
 ### About the dataset<a name="2"></a>
 
-This model is trained using a labelled dataset of images from KAGGLE. Website link: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images
+This model is trained using a labelled dataset of images from KAGGLE.
+Website link: https://www.kaggle.com/datasets/pythonafroz/solar-panel-images
 
 The Dataset has been divided into SIX classes namely,
  
